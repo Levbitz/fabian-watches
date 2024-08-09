@@ -47,7 +47,9 @@ video{
     video{
         width: 100%;
     }
-    
+    .brand-logo{
+        font-size: 18px !important;
+    }
   }
 
   footer a{
