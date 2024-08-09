@@ -26,6 +26,15 @@ body{
     min-height: 60vh;
 }
 
+.showcase .content{
+    margin-top: 20vh;
+}
+
+.showcase .content{
+    color: #fff;
+    font-weight: bold;
+}
+
 .myVid{
     width: 200px !important;
 }
@@ -43,4 +52,59 @@ video{
 
   footer a{
     color:#fff
+  }
+
+  nav ul li a{
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+background-color: #fff !important;
+color: coral !important;
+font-weight: bold;
+transition: .4s ease;
+  }
+
+
+  .pdts h5{
+    color:gray ;
+    font-size:18px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .pdts p{
+    color:coral ;
+    font-size:16px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .pdts h5:hover{
+    color:coral !important
+    
+
+  }
+
+
+  .our_promise{
+    padding: 10px 0px;
+  }
+  .our_promise h3{
+color: coral;
+font-weight: 22px;
+font-weight: bold;
+  }
+
+  .promise_content{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .promise_content h5{
+    color:coral;
+    font-size: 18px;
+  }
+
+  .promise_content p{
+    color:gray
   }
