@@ -15,3 +15,18 @@ body{
     background-repeat: no-repeat;
     min-height: 60vh;
 }
+
+.myVid{
+    width: 200px !important;
+}
+
+video{
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    video{
+        width: 100%;
+    }
+    
+  }
