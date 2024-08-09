@@ -1,10 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems, options);
-});
 
-// Or with jQuery
 
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
+
+
+ // Function to add the blur class to the body after 5 seconds
+ setTimeout(function() {
+  document.body.classList.add('blur');
+}, 5000);

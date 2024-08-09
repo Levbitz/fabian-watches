@@ -111,3 +111,18 @@ font-weight: bold;
   .promise_content p{
     color:gray
   }
+
+
+  @keyframes blurEffect {
+    0% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(10px);
+    }
+}
+
+/* Apply the blur class to trigger the animation */
+.blur {
+    animation: blurEffect 5s forwards;
+}
